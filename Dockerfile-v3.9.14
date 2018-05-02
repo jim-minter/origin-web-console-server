@@ -1,0 +1,2 @@
+FROM registry.access.redhat.com/openshift3/ose-web-console:v3.9.14
+COPY _output/local/bin/linux/amd64/origin-web-console /usr/bin/origin-web-console
